@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project</title>
+    <link rel="stylesheet" href="style.guessnumber.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@300;400&family=Playfair+Display:wght@500&family=Roboto:ital,wght@1,300&family=Supermercado+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sections header">
+            <div><button class="button button1">Again <i class="fas fa-power-off"></i></button></div>
+            <span class="number-range">
+                <h2>Choose b/w 1-20</h2>
+            </span>
+        </div>
+        <div class="sections game-name">
+            <div>
+                <h1>Guess the Number..!</h1>
+            </div>
+        </div>
+        <div class="sections menu">
+
+            <h1>Number</h1>
+        </div>
+        <div class="container-1">
+            <div class="sections content">
+                <div>  <input type="number" name="guess-number" id="guessed-number" min="0" max="20"></div>
+                <div><button class="button button4" id="check-btn">Check</button></div>
+            </div>
+            <div class="sections footer">
+                <div class="answer-class" id="answer">
+                  <span id="answer"></span>
+                </div>
+                <div class="lower-class" id="score">
+                   <h3>Score:</h3> <span class="score"></span >
+                </div>
+                <div class="lower-class" id="highscore">
+                    <h3>HighScore:</h3><span class="highscore"></span >
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.guessnumber.js"></script>
+<script src="https://kit.fontawesome.com/19478f2daa.js" crossorigin="anonymous"></script>
+
+</html>
