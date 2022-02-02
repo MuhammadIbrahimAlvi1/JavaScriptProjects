@@ -16,10 +16,10 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="highScoreCheck()">
     <div class="container">
         <div class="sections header">
-            <div><button class="button button1">Again <i class="fas fa-power-off"></i></button></div>
+            <div><button class="button button1" id="play-again">Again </button></div>
             <span class="number-range">
                 <h2>Choose b/w 1-20</h2>
             </span>
@@ -31,30 +31,30 @@
         </div>
         <div class="sections menu">
 
-            <h1>Number</h1>
+            <h1 id="number-value">Number</h1>
         </div>
         <div class="container-1">
             <div class="sections content">
-                <div>  <input type="number" name="guess-number" id="guessed-number" min="0" max="20"></div>
+                <div>  <input type="number" name="guess-number" id="guessed-number-field" min="1" max="20"></div>
                 <div><button class="button button4" id="check-btn">Check</button></div>
             </div>
             <div class="sections footer">
                 <div class="answer-class" id="answer">
                   <span id="answer"></span>
                 </div>
-                <div class="lower-class" id="score">
-                   <h3>Score:</h3> <span class="score"></span >
+                <div class="lower-class">
+                   <h3>Score:</h3> <span id="score"></span >
                 </div>
-                <div class="lower-class" id="highscore">
-                    <h3>HighScore:</h3><span class="highscore"></span >
+                <div class="lower-class">
+                    <h3>HighScore:</h3><span id="highscore"></span >
                 </div>
-
             </div>
         </div>
     </div>
 
+
 </body>
 <script src="app.guessnumber.js"></script>
-<script src="https://kit.fontawesome.com/19478f2daa.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/19478f2daa.js" crossorigin="anonymous"></script> -->
 
 </html>

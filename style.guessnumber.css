@@ -93,14 +93,6 @@
     flex-grow: 2;
 }
 
-.dot{
-    width: 20px;
-    height: 20px;
-    background-color: black;
-    margin-top: 10px;
-    border-radius: 30px;
-}
-
 .lower-class{
     margin-top: 10px;
 }
